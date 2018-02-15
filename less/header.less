@@ -1,0 +1,108 @@
+
+#nav-logo {
+
+	background-color: @brand-blue;
+
+	button:focus {
+		outline: none;
+	}
+	
+	
+	.navbar {
+		min-height: 70px;
+	}
+
+	.navbar-inverse .navbar-toggler {
+		border-color: transparent;
+	}
+
+	.navbar-toggler {
+		//width: 100%;
+		// float: none;
+		// //display: table;
+		// margin: 0 auto;
+		// border-width:0;
+		// border-radius:0;
+		// background-color: transparent;
+	}
+
+
+	.navbar-toggler-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(61,175,172, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	}
+
+
+	#menu-main-menu
+	//#menu-footer-menu 
+	{
+
+		li {
+
+			margin-right: 20px;
+
+			a {
+				color: @white;
+				text-transform: uppercase;
+				text-decoration: none;
+				font-weight: 200;
+				.links-transition ('color 0.5s');
+			}
+
+			a:hover {
+				color: @brand-teal;
+			}
+
+		}
+
+		li:last-child {
+			margin-right: 0;
+		}
+		
+	}
+	
+	
+	
+
+
+	// Add Burger to iPad portrait 
+
+	// @media only screen and (max-width : 768px) {   /*  iPad Portrait  */
+	//     .navbar-header {
+	//         float: none;
+	//     }
+	//     .navbar-toggle {
+	//         display: block;
+	//     }
+	//     .navbar-collapse {
+	//         border-top: 1px solid transparent;
+	//         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	//     }
+	    
+	    
+	    
+	//     .navbar-collapse.collapse {
+	//         display: none!important;
+	//     }
+	    
+		
+	// 	.navbar-collapse.collapse.in {
+	//         display: block!important;
+	//     }
+	    
+	    
+	//     .navbar-nav {
+	//         float: none!important;
+	//         margin: 7.5px -15px;
+	//     }
+	//     .navbar-nav>li {
+	//         float: none;
+	//     }
+	//     .navbar-nav>li>a {
+	//         padding-top: 10px;
+	//         padding-bottom: 10px;
+	//     }
+	// }
+
+}
+
+

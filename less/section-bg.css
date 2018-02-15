@@ -1,0 +1,662 @@
+@media (min-width: 320px) {
+  .page-id-2 .section-top-bg {
+    /*  iPhone 4 & 5 */
+  }
+}
+@media (min-width: 360px) {
+  .page-id-2 .section-top-bg {
+    /* Galaxy s4 & s6 */
+    background-position: center -670px;
+  }
+}
+@media (min-width: 375px) {
+  .page-id-2 .section-top-bg {
+    /*  iPhone 6 */
+    background-position: center -600px;
+  }
+}
+@media (min-width: 412px) {
+  .page-id-2 .section-top-bg {
+    /*  Google pixel */
+    background-position: center -550px;
+  }
+}
+@media (min-width: 414px) {
+  .page-id-2 .section-top-bg {
+    /*  iPhone 6 plus  */
+    background-position: center -550px;
+  }
+}
+@media (max-width: 767px) {
+  .page-id-2 .section-top-bg {
+    /*  All phone devices */
+  }
+}
+@media only screen and (min-width: 768px) {
+  .page-id-2 .section-top-bg {
+    /*  iPad Portrait  */
+    background-position: center -500px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .page-id-2 .section-top-bg {
+    /*  iPad Landscape  */
+    background-position: center -450px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .page-id-2 .section-top-bg {
+    /*  13" laptop  */
+    background-position: center -320px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .page-id-2 .section-top-bg {
+    /*  15" Laptop  */
+    background-position: center -370px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -500px;
+  }
+}
+@media only screen and (min-width: 1550px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -550px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -600px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -650px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -750px;
+  }
+}
+@media only screen and (min-width: 1750px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -800px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -900px;
+  }
+}
+@media only screen and (min-width: 1850px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -950px;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1000px;
+  }
+}
+@media only screen and (min-width: 1950px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1050px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1100px;
+  }
+}
+@media only screen and (min-width: 2050px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1150px;
+  }
+}
+@media only screen and (min-width: 2100px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1200px;
+  }
+}
+@media only screen and (min-width: 2150px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1250px;
+  }
+}
+@media only screen and (min-width: 2200px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1300px;
+  }
+}
+@media only screen and (min-width: 2250px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1350px;
+  }
+}
+@media only screen and (min-width: 2300px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1400px;
+  }
+}
+@media only screen and (min-width: 2350px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1450px;
+  }
+}
+@media only screen and (min-width: 2400px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1500px;
+  }
+}
+@media only screen and (min-width: 2450px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1550px;
+  }
+}
+@media only screen and (min-width: 2500px) {
+  .page-id-2 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1650px;
+  }
+}
+@media (max-width: 767px) {
+  .page-id-2 .section-bottom {
+    /*  All phone devices */
+    margin-top: -500px;
+    min-height: 600px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .page-id-2 .section-bottom {
+    /*  iPad Landscape  */
+    margin-top: -700px;
+    min-height: 700px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .page-id-2 .section-bottom {
+    /*  iPad Portrait  */
+    margin-top: -700px;
+    min-height: 700px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .page-id-2 .section-bottom {
+    /*  13" laptop  */
+    margin-top: -800px;
+    min-height: 800px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .page-id-2 .section-bottom {
+    /*  15" Laptop  */
+    margin-top: -900px;
+    min-height: 900px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .page-id-2 .section-bottom {
+    /*  Desktop 1 */
+    margin-top: -950px;
+    min-height: 950px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .page-id-2 .section-bottom {
+    /*  Desktop */
+    margin-top: -1000px;
+    min-height: 1000px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .page-id-2 .section-bottom {
+    /*  Desktop */
+    margin-top: -1050px;
+    min-height: 1050px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .page-id-2 .section-bottom {
+    /*  Desktop */
+    margin-top: -1100px;
+    min-height: 1100px;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .page-id-2 .section-bottom {
+    /*  Desktop */
+    margin-top: -1150px;
+    min-height: 1150px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .page-id-2 .section-bottom {
+    /*  Desktop */
+    margin-top: -1200px;
+    min-height: 1200px;
+  }
+}
+@media only screen and (min-width: 2100px) {
+  .page-id-2 .section-bottom {
+    /*  Desktop */
+    margin-top: -1250px;
+    min-height: 1250px;
+  }
+}
+@media only screen and (min-width: 2200px) {
+  .page-id-2 .section-bottom {
+    /*  Desktop */
+    margin-top: -1300px;
+    min-height: 1300px;
+  }
+}
+@media only screen and (min-width: 2300px) {
+  .page-id-2 .section-bottom {
+    /*  Desktop */
+    margin-top: -1350px;
+    min-height: 1350px;
+  }
+}
+@media only screen and (min-width: 2400px) {
+  .page-id-2 .section-bottom {
+    /*  Desktop */
+    margin-top: -1400px;
+    min-height: 1400px;
+  }
+}
+@media only screen and (min-width: 2500px) {
+  .page-id-2 .section-bottom {
+    /*  Desktop */
+    margin-top: -1450px;
+    min-height: 1450px;
+  }
+}
+@media (max-width: 767px) {
+  .page-id-25 .section-top-bg {
+    /*  All phone devices */
+  }
+}
+@media (min-width: 320px) {
+  .page-id-25 .section-top-bg {
+    /*  iPhone 4 & 5 */
+  }
+}
+@media (min-width: 360px) {
+  .page-id-25 .section-top-bg {
+    /* Galaxy s4 & s6 */
+  }
+}
+@media (min-width: 375px) {
+  .page-id-25 .section-top-bg {
+    /*  iPhone 6 */
+    background-position: center -850px;
+  }
+}
+@media (min-width: 412px) {
+  .page-id-25 .section-top-bg {
+    /*  Google pixel */
+    background-position: center -900px;
+  }
+}
+@media (min-width: 414px) {
+  .page-id-25 .section-top-bg {
+    /*  iPhone 6 plus  */
+    background-position: center -900px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .page-id-25 .section-top-bg {
+    /*  iPad Portrait  */
+    background-position: center -800px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .page-id-25 .section-top-bg {
+    /*  iPad Landscape  */
+    background-position: center -900px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .page-id-25 .section-top-bg {
+    /*  13" laptop  */
+    background-position: center -720px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .page-id-25 .section-top-bg {
+    /*  15" Laptop  */
+    background-position: center -770px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -750px;
+  }
+}
+@media only screen and (min-width: 1550px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -700px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -700px;
+  }
+}
+@media only screen and (min-width: 1650px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -750px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -800px;
+  }
+}
+@media only screen and (min-width: 1750px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -800px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -800px;
+  }
+}
+@media only screen and (min-width: 1850px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -850px;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -900px;
+  }
+}
+@media only screen and (min-width: 1950px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -950px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1000px;
+  }
+}
+@media only screen and (min-width: 2050px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1050px;
+  }
+}
+@media only screen and (min-width: 2100px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1100px;
+  }
+}
+@media only screen and (min-width: 2150px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1150px;
+  }
+}
+@media only screen and (min-width: 2200px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1200px;
+  }
+}
+@media only screen and (min-width: 2250px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1250px;
+  }
+}
+@media only screen and (min-width: 2300px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1300px;
+  }
+}
+@media only screen and (min-width: 2350px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1350px;
+  }
+}
+@media only screen and (min-width: 2400px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1400px;
+  }
+}
+@media only screen and (min-width: 2450px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1450px;
+  }
+}
+@media only screen and (min-width: 2500px) {
+  .page-id-25 .section-top-bg {
+    /*  Desktop */
+    background-position: center -1600px;
+  }
+}
+@media (max-width: 767px) {
+  .page-id-25 .section-bottom {
+    /*  All phone devices */
+    margin-top: 0;
+    min-height: 800px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .page-id-25 .section-bottom {
+    /*  iPad Portrait  */
+    margin-top: -500px;
+    min-height: 900px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .page-id-25 .section-bottom {
+    /*  iPad Landscape  */
+    margin-top: -900px;
+    min-height: 900px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .page-id-25 .section-bottom {
+    /*  13" laptop  */
+    margin-top: -850px;
+    min-height: 950px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .page-id-25 .section-bottom {
+    /*  15" Laptop  */
+    margin-top: -900px;
+    min-height: 1000px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .page-id-25 .section-bottom {
+    /*  Desktop 1 */
+    margin-top: -1000px;
+    min-height: 1100px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .page-id-25 .section-bottom {
+    /*  Desktop */
+    margin-top: -1050px;
+    min-height: 1150px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .page-id-25 .section-bottom {
+    /*  Desktop */
+    margin-top: -1100px;
+    min-height: 1200px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .page-id-25 .section-bottom {
+    /*  Desktop */
+    margin-top: -1100px;
+    min-height: 1250px;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .page-id-25 .section-bottom {
+    /*  Desktop */
+    margin-top: -1150px;
+    min-height: 1350px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .page-id-25 .section-bottom {
+    /*  Desktop */
+    margin-top: -1200px;
+    min-height: 1400px;
+  }
+}
+@media only screen and (min-width: 2100px) {
+  .page-id-25 .section-bottom {
+    /*  Desktop */
+    margin-top: -1300px;
+    min-height: 1450px;
+  }
+}
+@media only screen and (min-width: 2200px) {
+  .page-id-25 .section-bottom {
+    /*  Desktop */
+    margin-top: -1400px;
+    min-height: 1500px;
+  }
+}
+@media only screen and (min-width: 2300px) {
+  .page-id-25 .section-bottom {
+    /*  Desktop */
+    margin-top: -1500px;
+    min-height: 1600px;
+  }
+}
+@media only screen and (min-width: 2400px) {
+  .page-id-25 .section-bottom {
+    /*  Desktop */
+    margin-top: -1550px;
+    min-height: 1750px;
+  }
+}
+@media only screen and (min-width: 2500px) {
+  .page-id-25 .section-bottom {
+    /*  Desktop */
+    margin-top: -1650px;
+    min-height: 1800px;
+  }
+}
+.blog .section-bottom,
+.page-id-23 .section-bottom,
+.single .section-bottom {
+  margin-top: -1250px;
+  min-height: 1700px;
+}
+@media (max-width: 767px) {
+  .single .section-bottom,
+  .single-project .section-bottom {
+    /*  All phone devices */
+    margin-top: -1900px;
+    min-height: 2350px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .single .section-bottom,
+  .single-project .section-bottom {
+    /*  iPad Portrait  */
+    margin-top: -1550px;
+    min-height: 2000px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .single .section-bottom,
+  .single-project .section-bottom {
+    /*  Desktop */
+    margin-top: -1750px;
+    min-height: 2200px;
+  }
+}
+@media only screen and (min-width: 2100px) {
+  .single .section-bottom,
+  .single-project .section-bottom {
+    /*  Desktop */
+    margin-top: -1850px;
+    min-height: 2300px;
+  }
+}
+@media only screen and (min-width: 2200px) {
+  .single .section-bottom,
+  .single-project .section-bottom {
+    /*  Desktop */
+    margin-top: -1950px;
+    min-height: 2400px;
+  }
+}
+@media only screen and (min-width: 2300px) {
+  .single .section-bottom,
+  .single-project .section-bottom {
+    /*  Desktop */
+    margin-top: -2050px;
+    min-height: 2500px;
+  }
+}
+@media only screen and (min-width: 2400px) {
+  .single .section-bottom,
+  .single-project .section-bottom {
+    /*  Desktop */
+    margin-top: -2150px;
+    min-height: 2600px;
+  }
+}
+@media only screen and (min-width: 2500px) {
+  .single .section-bottom,
+  .single-project .section-bottom {
+    /*  Desktop */
+    margin-top: -2250px;
+    min-height: 2700px;
+  }
+}
+/*# sourceMappingURL=section-bg.css.map */

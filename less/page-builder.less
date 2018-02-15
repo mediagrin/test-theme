@@ -1,0 +1,548 @@
+#page-builder {
+
+	#full-width-blocks {
+
+		.block-left, .block-right {
+			
+			@media (max-width: 767px) {  /*  All phone devices */
+				min-height: 400px;
+			}
+			
+			@media only screen and (min-width : 768px) {   /*  iPad Portrait  */
+				min-height: 500px;
+			}
+
+			h1, h2 {
+				color: @white;
+			}
+
+			h3, h4, h5 {
+				color: @brand-red;
+			}
+
+			h1,h2,h3,h4,h5,h6 {
+				margin-top: 0;
+				margin-bottom: 15px;
+				img {
+					padding-top: 17px;
+				}
+			}
+
+			h1 {
+				font-size: 66px;
+			}
+
+			h3 {
+				font-size: 36px;
+			}
+
+			h3 {
+				font-size: 32px;
+			}
+
+			p, a {
+				color: @white;
+			}
+
+			a {
+				text-decoration: underline;
+			}
+
+			a:hover {
+				text-decoration: none;
+			}
+
+		}
+
+
+		.block-text {
+
+			@media only screen and (max-width : 768px) {   /*  UP TO iPad Portrait  */
+				.center-center();
+				margin: 0 auto;
+				display: table;
+			}
+
+
+
+			@media only screen and (min-width : 1024px) {  /*  iPad Landscape  */
+				.center-center();
+			}
+
+
+			p {
+				font-size: 20px;
+			}
+
+
+		}
+
+
+
+		.block-right {
+			.block-text {
+				
+				@media (max-width: 767px) {  /*  All phone devices */
+					padding-bottom: 60px;
+				}
+
+				@media only screen and (max-width : 768px) {   /*  UP TO iPad Portrait  */
+					padding: 0 40px;
+				}
+
+			}
+		}
+
+
+
+		.learn-more {
+			
+			@media (max-width: 767px) {  /*  All phone devices */
+				padding: 40px 0;
+			}
+			
+			@media only screen and (min-width : 768px) {   /*  iPad Portrait  */
+				display: table;
+				margin: 30px auto 0 auto;
+				padding-bottom: 40px;
+			}
+			
+			@media only screen and (min-width : 1024px) {  /*  iPad Landscape  */
+				margin: 30px 0 0;
+			}
+
+			@media only screen and (min-width : 1200px) {  /*  Desktop  */
+				padding-bottom: 0;
+			}
+			
+			
+			a {
+				background-color: @brand-grey;
+				color: @white;
+				padding: 7px 30px;
+				border-radius: 5px;
+				text-decoration: none;
+				.links-transition ('background-color 0.5s, color 0.5s');
+			}
+
+			a:hover {
+				background-color: @black;
+				color: @white;
+			}
+		}
+
+	} // End
+
+
+
+
+	#full-width-image-blocks {
+
+		.content-block {
+			position: relative;
+		}
+
+		.block-text-pos {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+
+		.block-text {
+			background-color: fade(@brand-blue, 70%);
+			position: relative;
+
+			@media (max-width: 767px) {  /*  All phone devices */
+				padding: 15px 20px;
+			}
+			
+			@media only screen and (min-width : 768px) {   /*  iPad Portrait  */
+				padding: 15px 20px;
+			}
+			
+			@media only screen and (min-width : 1024px) {  /*  iPad Landscape  */
+				padding: 15px 60px;
+			}	
+			
+			@media only screen and (min-width : 1200px) {  /*  Desktop  */
+				padding: 15px 120px;
+			}
+			
+			
+			.number {
+				color: @brand-red;
+				font-size: 42px;
+				position: absolute;
+				.vertical-align();
+			}
+			
+			.text {
+				margin-left: 40px;
+			}
+
+			p {
+				color: @white;
+				font-size: 14px;
+				margin-bottom: 0;
+			}
+		}
+
+	} // End
+
+
+
+
+	#text-block {
+
+		.block-text {
+			padding-top: 20px;
+			 //P {
+				padding-bottom: 30px;
+			 //}
+		}
+
+
+	} // End
+
+
+	.block-bg-purple {
+		h1, h2, h3, h4, h5, p {
+		color: @white;
+		}
+	}
+
+	.block-bg-blue {
+		h1, h2, h3, h4, h5, p {
+		color: @white;
+		}
+	}
+
+
+	#content-block-4-col,
+	#content-block-5-col {
+
+		.section-bg {
+			background-color: @brand-blue;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+
+		.image-block{
+			
+
+			@media (max-width: 767px) {  /*  All phone devices */
+				padding: 0 20px;
+			}
+			
+			@media only screen and (min-width : 768px) {   /*  iPad Portrait  */
+				padding: 0 40px;
+			}
+			
+			@media only screen and (min-width : 1024px) {  /*  iPad Landscape  */
+				padding: 0 20px;
+			}	
+		}
+
+
+		.text-block {
+			padding: 0 7px;
+			
+			@media (max-width: 767px) {  /*  All phone devices */
+				margin-bottom: 50px;
+			}
+
+			@media only screen and (min-width : 768px) {   /*  iPad Portrait  */
+				margin-bottom: 50px;
+			}
+			
+			@media only screen and (min-width : 1024px) {  /*  iPad Landscape  */
+				margin-bottom: 30px;
+			}
+			
+			h3, p {
+				text-align: center;
+			}
+
+			h3 {
+				color: @brand-purple;
+			}
+
+			p {
+				color: @white;
+				font-size: 14px;
+			}
+		}
+
+
+	} // End
+
+
+
+	#content-block-4-col {
+
+		.image-block{
+			padding: 0 20px;	
+		}
+
+	} // End
+
+
+
+
+	#image-left-text-right {
+
+		padding-top: 50px;
+
+		.block-pos {
+			position: relative;
+			//margin-top: 10px;
+			margin-bottom: -26px;
+		}
+
+		.icon-pos{
+			position: absolute;
+			.horizontal-align();
+			bottom: -50px;
+			z-index: 1;
+		}
+
+		.image-block {
+			position: relative;
+			background-color: @black;
+
+			img {
+				.opacity(0.8);
+			}
+
+			.title-overlay {
+				position: absolute;
+				top: 30px;
+				left: 30px;
+
+				h2 {
+					font-family: 'basis-grotesque-medium';
+					color: @white;
+					font-size: 42px;
+				}
+			}
+		}
+
+
+		.block-text {
+
+			h1,h2,h3,h4,h5 {
+				color: @white;
+				font-weight: 400;
+			}
+
+			p, a {
+				color: @white;
+			}
+
+			a {
+				text-decoration: underline;
+			}
+
+			a:hover {
+				text-decoration: none;
+			}
+
+
+			@media (max-width: 767px) {  /*  All phone devices */
+				min-height: 300px;
+				padding: 30px 30px 60px 30px;
+				h1,h2,h3,h4,h5, p {
+					margin-top: 0;
+				}
+			}
+
+			@media only screen and (min-width : 768px) {   /*  iPad Portrait  */
+				.center-center();
+				margin: 0 auto;
+				display: table;
+				padding: 0 10px;
+			}
+
+			@media only screen and (min-width : 1024px) {  /*  iPad Landscape  */
+				padding: 0 50px;
+			}
+
+
+			@media only screen and (min-width : 1200px) {  /*  Desktop  */
+				padding: 60px;
+			}
+
+
+			.learn-more {
+				
+				@media (max-width: 767px) {  /*  All phone devices */
+					padding: 40px 0;
+				}
+				
+				@media only screen and (min-width : 768px) {   /*  iPad Portrait  */
+					display: table;
+					margin: 30px auto 0 auto;
+					padding-bottom: 40px;
+				}
+				
+				@media only screen and (min-width : 1024px) {  /*  iPad Landscape  */
+					margin: 30px 0 0;
+				}
+
+				@media only screen and (min-width : 1200px) {  /*  Desktop  */
+					padding-bottom: 0;
+				}
+				
+				
+				a {
+					background-color: @white;
+					color: @brand-red;
+					padding: 7px 30px;
+					border-radius: 5px;
+					text-decoration: none;
+					.links-transition ('background-color 0.5s, color 0.5s');
+				}
+
+				a:hover {
+					background-color: @black;
+					color: @white;
+				}
+			}
+
+		}
+
+		.block-bg-grey {
+			.block-text {
+				p {
+					color: @brand-blue;
+				}
+			}
+		}
+
+	} // End
+
+
+
+
+	#carousel-show-3 {
+
+		//margin-top: 60px;
+
+		.section-bg {
+			background-color: @brand-light-grey;
+			min-height: 800px;
+		}
+
+
+		.intro-text {
+			padding: 20px 0 50px 0;
+		}
+
+
+		.nav-arrow-pos {
+			position: absolute;
+			top: 20%;
+			.horizontal-align();
+
+			.fa {
+				font-size: 52px;
+			}
+		}
+
+
+		.text-area {
+
+			margin: 30px 0 50px 0;
+			
+			p {
+				font-size: 14px;
+			}
+			img {
+				padding: 0 40px;
+			}
+		}
+
+	} // End
+
+
+
+
+	#content-block-3-col {
+
+		padding-top: 30px;
+		//padding: 15px 0;
+
+		.content-block {
+			//min-height: 400px;
+		}
+
+		.image-block {
+
+			padding: 0 20px;
+
+			img {
+				border-radius: 50%;
+				margin-bottom: 20px;
+			}
+
+		}
+
+
+		.text-block {
+
+			margin-bottom: 60px;
+			@media (max-width: 767px) {  /*  All phone devices */
+				margin-bottom: 0px;
+			}
+
+			p {
+				text-align: center;
+				margin-bottom: 5px;
+			}
+
+			p.sub {
+				font-size: 14px;
+			}
+		}
+
+
+		.content-block-last {
+			
+				@media (max-width: 767px) {  /*  All phone devices */
+					padding-top: 30px;
+				}
+			
+		}
+
+
+	} // End
+
+
+	
+
+	
+	
+} // End all
+
+
+.add-padding {
+	padding-bottom: 100px;
+}
+
+.add-padding-after-txt {
+	padding-bottom: 50px;
+}
+
+.ipad-pos {
+	@media only screen and (min-width : 768px) {   /*  iPad Portrait  */
+		margin-left: -15px;
+	}
+	
+	@media only screen and (min-width : 1024px) {  /*  iPad Landscape  */
+		
+	}	
+	
+	@media only screen and (min-width : 1200px) {  /*  Desktop  */
+		margin-left: 0;
+	}
+}

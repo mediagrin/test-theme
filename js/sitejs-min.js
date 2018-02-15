@@ -1,0 +1,1 @@
+$(document).ready(function(){$("img").addClass("img-fluid");var d=$(window).width()});

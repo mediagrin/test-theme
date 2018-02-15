@@ -1,0 +1,127 @@
+
+// Fixing footer to base of page for certain page types
+
+
+// .page-id-2, .page-id-10a, .page-id-12a, .page-id-14a, .page-id-16 {
+
+// 	footer {
+
+// 		@media (max-width: 767px) {  /*  All phone devices */
+// 			position: relative;
+// 		}
+	
+// 		@media only screen and (min-width : 768px) {   /*  iPad Portrait  */
+// 			position: absolute;
+// 		}
+	
+// 		@media only screen and (min-width : 1024px) {  /*  iPad Landscape  */
+// 			position: relative;
+// 		}	
+	
+// 		@media only screen and (min-width : 1200px) {  /*  13" laptop  */
+// 			position: relative;
+// 		}
+	
+// 		@media only screen and (min-width : 1500px) {  /*  Desktop  */
+// 			position: fixed;
+// 		}
+	
+// 		right: 0;
+// 		left: 0;
+// 		bottom: 0;
+
+// 	}
+
+// }
+
+
+
+
+
+footer {
+
+	background-color: @brand-teal;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	.footer-section-title {
+		color: @white;
+		margin-bottom: 20px;
+	}
+
+	p, a {
+		color: @brand-blue;
+		//margin-bottom: 0.5rem;
+	}
+
+	p:last-child, li:last-child {
+		margin-bottom: 0;
+	}
+
+	a {
+		text-decoration: none;
+		.links-transition ('color 0.5s');
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: @white;
+	}
+
+	ul, li {
+		list-style: none;
+		padding-left: 0;
+		margin-left: 0;
+
+	}
+
+
+	.footer-left {
+
+		@media (max-width: 767px) {  /*  All phone devices */
+			text-align: center;
+		}
+
+		@media only screen and (min-width : 768px) {   /*  iPad Portrait  */
+			border-left: 4px dotted @white;
+			padding-left: 20px;
+		}
+		
+
+		.fa {
+			margin-right: 5px;
+		}
+	}
+
+	.footer-right {
+
+		@media (max-width: 767px) {  /*  All phone devices */
+			text-align: center;
+
+			.footer-section-title {
+				margin-top: 30px;
+			}
+		}
+
+		@media only screen and (min-width : 768px) {   /*  iPad Portrait  */
+			border-left: 4px dotted @white;
+			padding-left: 20px;
+		}
+		// float: right;
+		// @media (max-width: 767px) {  /*  All phone devices */
+		// 	float: none;
+		// 	text-align: center;
+		// }
+
+
+		.fa {
+			color: white;
+			font-size: 24px;
+			padding: 7px;
+			background-color: @brand-blue;
+			margin-bottom: 20px;
+		}
+	}
+
+}
+
